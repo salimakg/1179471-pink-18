@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Salima Askaralieva](https://up.htmlacademy.ru/adaptive/18/user/1179471).
-* Наставник: `Неизвестно`.
+* Наставник: Сергей Остаповец.
 
 ---
 
