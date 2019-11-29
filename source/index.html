@@ -3,10 +3,108 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img  class="page-header__logo-image" src="https://via.placeholder.com/150x150" width="74" height="23" alt="Pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a href="https://echo.htmlacademy.ru.">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://echo.htmlacademy.ru">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://echo.htmlacademy.ru">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://echo.htmlacademy.ru">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Пинк</h1>
+      <section class="attachment">
+        <h2 class="visually-hidden">Скачивание приложений</h2>
+        <img src="https://via.placeholder.com/150x150" width="340" height="314" alt="фото телефона">
+        <a class="attachment__button" href="https://echo.htmlacademy.ru">Скачать приложение</a>
+        <ul class="attachment__list item-list">
+          <li class="item-list__item">
+            <a href="https://echo.htmlacademy.ru">
+            <img src="https://via.placeholder.com/150x150" width="47" height="56" alt="apple-logo-svg">
+            </a>
+          </li>
+          <li class="item-list__item">
+            <a href="https://echo.htmlacademy.ru">
+            <img src="https://via.placeholder.com/150x150" width="43" height="47" alt="android-logo-svg">
+            </a>
+          </li>
+          <li class="item-list__item">
+            <a href="https://echo.htmlacademy.ru">
+            <img src="https://via.placeholder.com/150x150" width="44" height="41" alt="microsoft-logo-svg">
+            </a>
+          </li>
+        </ul>
+        <p class="attachment__intro">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+      <section  class="features">
+        <header class="features__header">
+          <h2 class="visually-hidden">Преимущество</h2>
+          <p class="features__appeal">Устали от серости мегаполиса?<br>Нам есть, что вам предложить!</p>
+        </header>
+        <div class="features__wrapper">
+          <h3 class="features__title">Поднимает настроение</h3>
+          <p class="features__item">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </div>
+        <div class="features__wrapper">
+          <h3 class="features__title">Меняет мир вокруг</h3>
+          <p class="features__item">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </div>
+        <div class="features__wrapper">
+          <h3 class="features__title">Заводит новых друзей</h3>
+          <p class="features__item">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </div>
+        <div class="features__photo">
+          <img src="https://via.placeholder.com/150x150" width="157" height="340" alt="фото смартфона">
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer visually-hidden">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__logo">
+          <a class="page-footer__logo logotype">
+            <img src="https://via.placeholder.com/150x150" width="147" height="40" alt="Логотип подвала">
+          </a>
+        </div>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="https://echo.htmlacademy.ru">Мы в Твиттере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://echo.htmlacademy.ru">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://echo.htmlacademy.ru">Мы в Ютуб</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="copyright__logotype">
+            <img src="https://via.placeholder.com/150x150" width="27" height="34" alt="Логотип htmlacademy.ru">
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
