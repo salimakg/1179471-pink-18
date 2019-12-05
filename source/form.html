@@ -34,57 +34,52 @@
     <main class="form-page">
       <h1 class="visually-hidden">Конкурсы</h1>
       <p class="form-page__intro">Конкурс на самое безбашенное путешествие с Пинк</p>
-      <section class="contest">
-        <h2 class="visually-hidden">Формы для конкурса</h2>
-        <p class="contest__intro">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
-        <form class="contest__form" action="https://echo.htmlacademy.ru" method="post" >
-          <label for="lastname-field">Фамилия:</label><br>
-          <input type="text" name="lastname" placeholder="Укажите фамилию *" id="lastname-field"><br>
-          <label for="firstname-field">Имя:</label><br>
-          <input type="text" name="firstname" placeholder="Введите ваше имя *" id="firstname-field"><br>
-          <label for="patronymic-field">Отчество:</label><br>
-          <input type="text" name="patronymic" placeholder="Ну и отчество тоже" id="patronymic-field"><br>
-        </form>
-      </section>
-      <section class="achievements">
-        <h2 class="visually-hidden">Ваши достижения</h2>
-        <p class="achievements__intro">Ваши безбашенные достижения в путешествии</p>
-        <form class="achievements__checkbox" action="https://echo.htmlacademy.ru" method="post">
-          <input type="checkbox" name="shark" value="" checked>Сделал селфи с акулой<br>
-          <input type="checkbox" name="beach" value="" checked>Обгорел на пляже<br>
-          <input type="checkbox" name="Chak Norris" value="">Видел Чака Норриса<br>
-          <input type="checkbox" name="souviners" value="">Накупил сувениров<br>
-          <input type="checkbox" name="tower" value="" checked>Удержал башню<br>
-          <input type="checkbox" name="hotel" value="" >Разгромил отель<br>
-        </form>
-      </section>
-      <section class="phone-email">
-        <h2 class="visually-hidden">Номер телефона и адресс почты</h2>
-        <form class="phone-email__form" action="https://echo.htmlacademy.ru" method="post">
-          <label for="phone-number-field">Номер телефона</label><br>
-          <input type="text" name="phone-number" placeholder="Номер, пожалуйста" id="phone-number-field"><br>
-          <label for="email-field">Aдрес почты</label><br>
-          <input type="text" name="email" placeholder="Введите почту *" id="email-field"><br>
-        </form>
-      </section>
-      <section class="apps">
-        <h2 class="visually-hidden">Ваше приложение</h2>
-        <p class="apps__intro">С каким приложением путешествовали?</p>
-        <form  class="apps__checkbox" action="https://echo.htmlacademy.ru" method="post">
-          <input type="checkbox" name="iOS" value="" checked>Pink для iOS<br>
-          <input type="checkbox" name="Android" value="">Pink на Android<br>
-          <input type="checkbox" name="Phone" value="">Windows Phone<br>
-        </form>
-      </section>
-      <section class="emotions">
-        <h2 class="visually-hidden">Оставьте комментарии</h2>
-        <form class="emotions__form" action="https://echo.htmlacademy.ru" method="post">
-          <label for="comments-field">Опишите свои эмоции</label><br>
-          <input type="text" name="comments" placeholder="Можно прям в красках, не стесняясь в выражениях" id="comments-field"><br>
-          <button class="sent-form button" type="submit">Отправить форму</button>
-          <small class="emotions__required emotions__required--left"><sup>*</sup>— обязательные поля</small>
-        </form>
-      </section>
+      <form action="https://echo.htmlacademy.ru">
+        <section class="contest">
+          <h2 class="visually-hidden">Формы для конкурса</h2>
+          <p class="contest__intro">
+            Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+            Пожалуйста, заполните форму ниже:
+          </p>
+            <label for="lastname-field">Фамилия:</label><br>
+            <input type="text" name="lastname" placeholder="Укажите фамилию *" id="lastname-field"><br>
+            <label for="firstname-field">Имя:</label><br>
+            <input type="text" name="firstname" placeholder="Введите ваше имя *" id="firstname-field"><br>
+            <label for="patronymic-field">Отчество:</label><br>
+            <input type="text" name="patronymic" placeholder="Ну и отчество тоже" id="patronymic-field"><br>
+        </section>
+        <section class="achievements">
+          <h2 class="visually-hidden">Ваши достижения</h2>
+          <p class="achievements__intro">Ваши безбашенные достижения в путешествии</p>
+            <input type="checkbox" name="shark" value="" checked>Сделал селфи с акулой<br>
+            <input type="checkbox" name="beach" value="" checked>Обгорел на пляже<br>
+            <input type="checkbox" name="Chak Norris" value="">Видел Чака Норриса<br>
+            <input type="checkbox" name="souviners" value="">Накупил сувениров<br>
+            <input type="checkbox" name="tower" value="" checked>Удержал башню<br>
+            <input type="checkbox" name="hotel" value="" >Разгромил отель<br>
+        </section>
+        <section class="phone-email">
+          <h2 class="visually-hidden">Номер телефона и адресс почты</h2>
+            <label for="phone-number-field">Номер телефона</label><br>
+            <input type="text" name="phone-number" placeholder="Номер, пожалуйста" id="phone-number-field"><br>
+            <label for="email-field">Aдрес почты</label><br>
+            <input type="text" name="email" placeholder="Введите почту *" id="email-field"><br>
+        </section>
+        <section class="apps">
+          <h2 class="visually-hidden">Ваше приложение</h2>
+          <p class="apps__intro">С каким приложением путешествовали?</p>
+            <input type="checkbox" name="iOS" value="" checked>Pink для iOS<br>
+            <input type="checkbox" name="Android" value="">Pink на Android<br>
+            <input type="checkbox" name="Phone" value="">Windows Phone<br>
+        </section>
+        <section class="emotions">
+          <h2 class="visually-hidden">Оставьте комментарии</h2>
+            <label for="comments-field">Опишите свои эмоции</label><br>
+            <input type="text" name="comments" placeholder="Можно прям в красках, не стесняясь в выражениях" id="comments-field"><br>
+            <button class="sent-form button" type="submit">Отправить форму</button>
+            <small class="emotions__required emotions__required--left"><sup>*</sup>— обязательные поля</small>
+        </section>
+      </form>
     </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
