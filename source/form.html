@@ -31,6 +31,95 @@
         </div>
       </nav>
     </header>
+    <main class="form-page">
+      <h1 class="visually-hidden">Конкурсы</h1>
+      <p class="form-page__intro">Конкурс на самое безбашенное путешествие с Пинк</p>
+      <form action="https://echo.htmlacademy.ru" class="form">
+        <section class="contest">
+          <h2 class="visually-hidden">Формы для конкурса</h2>
+          <p class="contest__intro">
+            Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+            Пожалуйста, заполните форму ниже:
+          </p>
+          <div class="form__field">
+            <label for="lastname-field">Фамилия:</label>
+            <input type="text" name="lastname" placeholder="Укажите фамилию *" id="lastname-field">
+          </div>
+          <div class="form__field">
+            <label for="firstname-field">Имя:</label>
+            <input type="text" name="firstname" placeholder="Введите ваше имя *" id="firstname-field">
+          </div>
+          <div class="form__field">
+            <label for="patronymic-field">Отчество:</label>
+            <input type="text" name="patronymic" placeholder="Ну и отчество тоже" id="patronymic-field">
+          </div>
+        </section>
+        <section class="achievements">
+          <h2 class="visually-hidden">Ваши достижения</h2>
+          <p class="achievements__intro">Ваши безбашенные достижения в путешествии</p>
+          <div class="form__field">
+            <input type="checkbox" name="shark" value="" id="shark" checked>
+            <label for="shark">Сделал селфи с акулой</label>
+          </div>
+          <div class="form__field">
+            <input type="checkbox" name="beach" value="" id="beach" checked>
+            <label for="beach">Обгорел на пляже</label>
+          </div>
+          <div class="form__field">
+            <input type="checkbox" name="Chak-Norris" value="" id="Chak-Norris">
+            <label for="Chak-Norris">Видел Чака Норриса</label>
+          </div>
+          <div class="form__field">
+            <input type="checkbox" name="souviners" value="" id="souviners">
+            <label for="souviners">Накупил сувениров</label>
+          </div>
+          <div class="form__field">
+            <input type="checkbox" name="tower" value="" id="tower" checked>
+            <label for="tower">Удержал башню</label>
+          </div>
+          <div class="form__field">
+            <input type="checkbox" name="hotel" value="" id="hotel">
+            <label for="hotel">Разгромил отель</label>
+          </div>
+        </section>
+        <section class="phone-email">
+          <h2 class="visually-hidden">Номер телефона и адресс почты</h2>
+          <div class="form__field">
+            <label for="phone-number-field">Номер телефона</label><br>
+            <input type="text" name="phone-number" placeholder="Номер, пожалуйста" id="phone-number-field">
+          </div>
+          <div class="form__field">
+            <label for="email-field">Aдрес почты</label><br>
+            <input type="text" name="email" placeholder="Введите почту *" id="email-field">
+          </div>
+        </section>
+        <section class="apps">
+          <h2 class="visually-hidden">Ваше приложение</h2>
+          <p class="apps__intro">С каким приложением путешествовали?</p>
+          <div class="form__field">
+            <input type="checkbox" name="iOS" value="" id="iOS" checked>
+            <label for="iOS">Pink для iOS</label>
+          </div>
+          <div class="form__field">
+            <input type="checkbox" name="Android" value="" id="Android">
+            <label for="Android">Pink на Android</label>
+          </div>
+          <div class="form__field">
+            <input type="checkbox" name="Phone" value="" id="Phone">
+            <label for="Phone">Windows Phone</label>
+          </div>
+        </section>
+        <section class="emotions">
+          <h2 class="visually-hidden">Оставьте комментарии</h2>
+          <div class="form__field">
+            <label for="comments-field">Опишите свои эмоции</label><br>
+            <input type="text" name="comments" placeholder="Можно прям в красках, не стесняясь в выражениях" id="comments-field">
+          </div>
+          <button class="sent-form button" type="submit">Отправить форму</button>
+          <small class="emotions__required emotions__required--left"><sup>*</sup>— обязательные поля</small>
+        </section>
+      </form>
+    </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
         <div class="page-footer__logo">
@@ -41,13 +130,13 @@
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link social__link--twitter" href="https://echo.htmlacademy.ru">Мы в Твиттере</a>
+              <a class="social__link social__link--twitter" href="https://echo.htmlacademy.ru" aria-label="Мы в Твиттере"></a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--facebook" href="https://echo.htmlacademy.ru">Мы в Фейсбуке</a>
+              <a class="social__link social__link--facebook" href="https://echo.htmlacademy.ru" aria-label="Мы в Фейсбуке"></a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--youtube" href="https://echo.htmlacademy.ru">Мы в Ютуб</a>
+              <a class="social__link social__link--youtube" href="https://echo.htmlacademy.ru" aria-label="Мы в Ютуб"></a>
             </li>
           </ul>
         </div>

@@ -16,7 +16,7 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="https://echo.htmlacademy.ru.">Главная</a>
+              <a href="https://echo.htmlacademy.ru">Главная</a>
             </li>
             <li class="site-list__item site-list__item--active">
               <a href="https://echo.htmlacademy.ru">Фотографии</a>
@@ -32,8 +32,9 @@
       </nav>
     </header>
     <main class="inner-page">
+      <h1 class="visually-hidden">Фотогалерея</h1>
       <section class="photogallery">
-        <h1 class="photogallery__title">Фотографии пользователей</h1>
+        <h2 class="photogallery__title">Фотографии пользователей</h2>
         <p class="photogallery__description">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
         <div class="photogallery-list">
           <blockquote class="photogallery__item">
@@ -117,8 +118,29 @@
             <div class="photogallery__time">(45 часов назад)</div>
             <p class="photogallery__comment">Всем GM и взаимные лайки!</p>
             <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__">Нравится: 2560</span>
+            <span class="photogallery__like">Нравится: 2560</span>
           </blockquote>
+        </div>
+      </section>
+      <section class="post">
+        <div class="post__wrapper">
+          <h2 class="visually-hidden">Публикации</h2>
+          <p class="post__intro">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+          <p class="post__photo">
+            <img src="https://via.placeholder.com/150x150" width="280" height="374" alt="Фото дороги">
+          </p>
+          <div class="icons__wrapper">
+            <span class="post__crop-icon post__crop-icon--active"></span>
+            <span class="post__fill-icon"></span>
+            <span class="post__contrast-icon"></span>
+          </div>
+          <div class="range-slider__wrapper">
+            <input type="range" min="1" max="100" value="50" class="post__range-slider" id="my-range">
+          </div>
+          <div class="post__buttons">
+            <a class="post__upload button" href="https://echo.htmlacademy.ru.">Запостить</a>
+            <a class="post__cancel button" href="https://echo.htmlacademy.ru.">Отмена</a>
+          </div>
         </div>
       </section>
     </main>
@@ -132,13 +154,13 @@
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link social__link--twitter" href="https://echo.htmlacademy.ru">Мы в Твиттере</a>
+              <a class="social__link social__link--twitter" href="https://echo.htmlacademy.ru" aria-label="Мы в Твиттере"></a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--facebook" href="https://echo.htmlacademy.ru">Мы в Фейсбуке</a>
+              <a class="social__link social__link--facebook" href="https://echo.htmlacademy.ru" aria-label="Мы в Фейсбуке"></a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--youtube" href="https://echo.htmlacademy.ru">Мы в Ютуб</a>
+              <a class="social__link social__link--youtube" href="https://echo.htmlacademy.ru" aria-label="Мы в Ютуб"></a>
             </li>
           </ul>
         </div>
