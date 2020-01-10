@@ -1,0 +1,20 @@
+.header {
+  background-color: $dark;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &__logo-image {
+    margin-top: 22px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    margin-right: 183px;
+  }
+  &__button {
+    fill: $primary;
+    margin-top: 21px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+    margin-right: 19px;
+  }
+}

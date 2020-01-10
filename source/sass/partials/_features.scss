@@ -1,0 +1,23 @@
+.features {
+  background-color: $primary;
+  &__appeal {
+    font-size: 24px;
+    font-weight: 300;
+    color: $dark;
+  }
+  &__wrapper {
+    background-color: $light-grey;
+  }
+  &__title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: $black;
+  }
+  &__item {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: $dark;
+  }
+}

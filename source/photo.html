@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo logo" src="https://via.placeholder.com/150x150" width="74" height="23" alt="Pink">
-      </a>
+    <header class="header">
+      <div class="header-wrapper">
+        <a class="header__logo">
+          <img class="header__logo-image" src="img/logo-pink-white-mobile.svg" width="74" height="22" alt="Pink">
+        </a>
+        <a href="https://echo.htmlacademy.ru" class="header__button">
+          <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
+            <path d="M15.087,11.933l8.56-8.559c0.293-0.293,0.293-0.768,0-1.061L21.554,0.22C21.414,0.079,21.223,0,21.023,0 c-0.199,0-0.391,0.079-0.529,0.22l-8.561,8.56l-8.56-8.56c-0.282-0.282-0.78-0.282-1.061,0L0.22,2.313 c-0.293,0.293-0.293,0.768,0,1.061l8.56,8.559l-8.56,8.559c-0.293,0.293-0.293,0.768,0,1.062l2.093,2.094 c0.141,0.142,0.331,0.22,0.53,0.22c0.199,0,0.39-0.078,0.53-0.22l8.561-8.56l8.56,8.56c0.141,0.142,0.332,0.22,0.53,0.22 c0.199,0,0.39-0.078,0.53-0.22l2.093-2.094c0.293-0.294,0.293-0.769,0-1.062L15.087,11.933z"/>
+          </svg>
+        </a>
+      </div>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
               <a href="https://echo.htmlacademy.ru">Главная</a>
             </li>
-            <li class="site-list__item site-list__item--active">
+            <li class="site-list__item--active">
               <a href="https://echo.htmlacademy.ru">Фотографии</a>
             </li>
             <li class="site-list__item">
@@ -31,96 +37,99 @@
         </div>
       </nav>
     </header>
-    <main class="inner-page">
+    <main class="inner">
       <h1 class="visually-hidden">Фотогалерея</h1>
       <section class="photogallery">
         <h2 class="photogallery__title">Фотографии пользователей</h2>
-        <p class="photogallery__description">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
-        <div class="photogallery-list">
-          <blockquote class="photogallery__item">
-            <p class="photogallery__photo">
-              <img src="https://via.placeholder.com/150x150" width="320" height="137" alt="Понорама дня">
-              <button class="photogallery__button" type="button">Понорама дня</button>
-            </p>
-            <cite class="photogallery__author">Анна</cite>
-            <div class="photogallery__time">(5 минут назад)</div>
-            <p class="photogallery__comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-            <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__like">Нравится: 215</span>
-          </blockquote>
-        </div>
-        <div class="photogallery-list">
-          <blockquote class="photogallery__item">
-            <p class="photogallery__photo">
-              <img src="https://via.placeholder.com/150x150" width="280" height="180" alt="Фото машины">
-            </p>
-            <cite class="photogallery__author">Левон</cite>
-            <div class="photogallery__time">(5 часов назад)</div>
-            <p class="photogallery__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-            <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__like">Нравится: 356</span>
-          </blockquote>
-        </div>
-        <div class="photogallery-list">
-          <blockquote class="photogallery__item">
-            <p class="photogallery__photo">
-              <img src="https://via.placeholder.com/150x150" width="280" height="180" alt="музыкальный инструмент">
-            </p>
-            <cite class="photogallery__author">Антон</cite>
-            <div class="photogallery__time">(12 часов назад)</div>
-            <p class="photogallery__comment"> Соседи будут рады!</p>
-            <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__like">Нравится: 666</span>
-          </blockquote>
-        </div>
-        <div class="photogallery-list">
-          <blockquote class="photogallery__list">
-            <p class="photogallery__photo">
-              <img src="https://via.placeholder.com/150x150" width="280" height="180" alt="музыкальный инструмент">
-            </p>
-            <cite class="photogallery__author">Борис</cite>
-            <div class="photogallery__time">(20 часов назад)</div>
-            <p class="photogallery__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
-            <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__like">Нравится: 215</span>
-          </blockquote>
-        </div>
-        <div class="photogallery-list">
-          <blockquote class="photogallery__item">
-            <p class="photogallery__photo">
-              <img src="https://via.placeholder.com/150x150" width="280" height="180" alt="музыкальный инструмент">
-            </p>
-            <cite class="photogallery__author">Сергей</cite>
-            <div class="photogallery__time">(25 часов назад)</div>
-            <p class="photogallery__comment">Самая кубанская в мире!</p>
-            <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__like">Нравится: 4</span>
-          </blockquote>
-        </div>
-        <div class="photogallery-list">
-          <blockquote class="photogallery__item">
-            <p class="photogallery__photo">
-              <img src="https://via.placeholder.com/150x150" width="280" height="180" alt="музыкальный инструмент">
-            </p>
-            <cite class="photogallery__author">Максим</cite>
-            <div class="photogallery__time">(40 часов назад)</div>
-            <p class="photogallery__comment">Где снег-то?</p>
-            <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__like">Нравится: 150</span>
-          </blockquote>
-        </div>
-        <div class="photogallery-list">
-          <blockquote class="photogallery__item">
-            <p class="photogallery__photo">
-              <img src="https://via.placeholder.com/150x150" width="280" height="180" alt="музыкальный инструмент">
-            </p>
-            <cite class="photogallery__author">Надежда</cite>
-            <div class="photogallery__time">(45 часов назад)</div>
-            <p class="photogallery__comment">Всем GM и взаимные лайки!</p>
-            <div class="photogallery__heart">Иконка</div>
-            <span class="photogallery__like">Нравится: 2560</span>
-          </blockquote>
-        </div>
+      </section>
+      <section class="photo-block">
+        <h2 class="photo-block__title visually-hidden">Фотки и комментарии</h2>
+        <p class="photo-block__description">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+        <blockquote class="photo-block__item-full">
+          <p class="photo-block__photo">
+            <img class="photo-block__photo-full" src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Понорама дня">
+            <button class="photo-block__button" type="button">Понорама дня</button>
+          </p>
+          <div class="photo-block__wrapper-full">
+            <cite class="photo-block__author">Анна</cite>
+            <div class="photo-block__time">(5 минут назад)</div>
+            <p class="photo-block__comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+            <div class="photo-block__heart">Иконка</div>
+            <span class="photo-block__like">Нравится: 215</span>
+          </div>
+        </blockquote>
+        <blockquote class="photo-block__item">
+          <p class="photo-block__photo">
+            <img src="img/photo-car-mobile@1x.jpg" width="280" height="180" alt="Фото машины">
+          </p>
+          <div class="photo-block__wrapper">
+            <cite class="photo-block__author">Левон</cite>
+            <div class="photo-block__time">(5 часов назад)</div>
+            <p class="photo-block__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            <div class="photo-block__heart">Иконка</div>
+            <span class="photo-block__like">Нравится: 356</span>
+          </div>
+        </blockquote>
+        <blockquote class="photo-block__item">
+          <p class="photo-block__photo">
+            <img src="img/photo-drumset-mobile@1x.jpg" width="280" height="180" alt="музыкальный инструмент">
+          </p>
+          <div class="photo-block__wrapper">
+            <cite class="photo-block__author">Антон</cite>
+            <div class="photo-block__time">(12 часов назад)</div>
+            <p class="photo-block__comment"> Соседи будут рады!</p>
+            <div class="photo-block__heart">Иконка</div>
+            <span class="photo-block__like">Нравится: 666</span>
+          </div>
+        </blockquote>
+        <blockquote class="photo-block__list">
+          <p class="photo-block__photo">
+            <img src="img/photo-window-mobile@1x.jpg" width="280" height="180" alt="музыкальный инструмент">
+          </p>
+          <div class="photo-block__wrapper">
+            <cite class="photo-block__author">Борис</cite>
+            <div class="photo-block__time">(20 часов назад)</div>
+            <p class="photo-block__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+            <div class="photo-block__heart">Иконка</div>
+            <span class="photo-block__like">Нравится: 215</span>
+          </div>
+        </blockquote>
+        <blockquote class="photo-block__item">
+          <p class="photo-block__photo">
+            <img src="img/photo-fair-mobile@1x.jpg" width="280" height="180" alt="музыкальный инструмент">
+          </p>
+          <div class="photo-block__wrapper">
+            <cite class="photo-block__author">Сергей</cite>
+            <div class="photo-block__time">(25 часов назад)</div>
+            <p class="photo-block__comment">Самая кубанская в мире!</p>
+            <div class="photo-block__heart">Иконка</div>
+            <span class="photo-block__like">Нравится: 4</span>
+          </div>
+        </blockquote>
+        <blockquote class="photo-block__item">
+          <p class="photo-block__photo">
+            <img src="img/photo-pov-mobile@1x.jpg" width="280" height="180" alt="музыкальный инструмент">
+          </p>
+          <div class="photo-block__wrapper">
+            <cite class="photo-block__author">Максим</cite>
+            <div class="photo-block__time">(40 часов назад)</div>
+            <p class="photo-block__comment">Где снег-то?</p>
+            <div class="photo-block__heart">Иконка</div>
+            <span class="photo-block__like">Нравится: 150</span>
+          </div>
+        </blockquote>
+        <blockquote class="photo-block__item">
+          <p class="photo-block__photo">
+            <img src="img/photo-wing-mobile@1x.jpg" width="280" height="180" alt="музыкальный инструмент">
+          </p>
+          <div class="photo-block__wrapper">
+            <cite class="photo-block__author">Надежда</cite>
+            <div class="photo-block__time">(45 часов назад)</div>
+            <p class="photo-block__comment">Всем GM и взаимные лайки!</p>
+            <div class="photo-block__heart">Иконка</div>
+            <span class="photo-block__like">Нравится: 2560</span>
+          </div>
+        </blockquote>
       </section>
       <section class="post">
         <div class="post__wrapper">
@@ -144,30 +153,36 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
-      <div class="page-footer__wrapper">
-        <div class="page-footer__logo">
-          <a class="page-footer__logo logotype">
-            <img src="https://via.placeholder.com/150x150" width="147" height="40" alt="Логотип подвала">
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__logo">
+          <a class="footer__logo logotype">
+            <img src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Логотип подвала">
           </a>
         </div>
-        <div class="page-footer__social social">
+        <div class="footer__social social">
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link social__link--twitter" href="https://echo.htmlacademy.ru" aria-label="Мы в Твиттере"></a>
+              <a class="social__link social__link--twitter" href="https://echo.htmlacademy.ru" aria-label="Мы в Твиттере">
+                <img src="img/icon-twitter.svg" alt="Твиттер">
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--facebook" href="https://echo.htmlacademy.ru" aria-label="Мы в Фейсбуке"></a>
+              <a class="social__link social__link--facebook" href="https://echo.htmlacademy.ru" aria-label="Мы в Фейсбуке">
+                <img src="img/icon-facebook.svg" alt="icon-facebook">
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--youtube" href="https://echo.htmlacademy.ru" aria-label="Мы в Ютуб"></a>
+              <a class="social__link social__link--youtube" href="https://echo.htmlacademy.ru" aria-label="Мы в Ютуб">
+                <img src="img/icon-youtube.svg" alt="icon-youtube">
+              </a>
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright copyright">
+        <div class="footer__copyright copyright">
           <b class="copyright__text">Разработано:</b>
           <a class="copyright__logotype " href="https://echo.htmlacademy.ru">
-            <img src="https://via.placeholder.com/150x150" width="27" height="34" alt="Логотип htmlacademy.ru">
+            <img src="img/logo-htmlacademy.svg" width="27" height="34" alt="Логотип htmlacademy.ru">
           </a>
         </div>
       </div>

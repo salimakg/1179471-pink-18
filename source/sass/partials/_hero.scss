@@ -1,0 +1,10 @@
+.hero {
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-size: cover;
+  &__title {
+    font-size: 24px;
+    color: $primary;
+    font-weight: 300;
+    margin-top: 0;
+  }
+}
