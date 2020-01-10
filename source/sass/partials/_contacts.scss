@@ -1,15 +1,18 @@
 .contacts {
   background-color: $primary;
+
   &__question {
     font-size: 24px;
     font-weight: 300;
     color: $dark;
   }
+
   &__label {
     font-size: 18px;
     font-weight: 700;
     color: $dark;
   }
+
   &__connection {
     font-size: 24px;
     font-weight: 300;

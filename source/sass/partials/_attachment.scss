@@ -1,5 +1,6 @@
 .attachment {
   background-color: $dark;
+
   &__button {
     font-size: 18px;
     line-height: 18px;
@@ -7,14 +8,15 @@
     color: $primary;
     text-decoration: none;
   }
+
   &__list {
     list-style: none;
   }
+
   &__intro {
     font-size: 14px;
     line-height: 24px;
     color: $primary;
     font-weight: 300;
   }
-
 }

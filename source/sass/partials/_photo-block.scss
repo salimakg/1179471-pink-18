@@ -1,22 +1,27 @@
 .photo-block {
   background-color: $primary;
+
   &__description {
     font-size: 14px;
     line-height: 30px;
     color: $dark;
     font-weight: normal;
   }
+
   &__item-full {
     margin: 0;
     padding: 0;
   }
+
   &__photo {
     margin-bottom: 0;
   }
+
   &__photo-full {
     width: 100%;
     position: relative;
   }
+
   &__button {
     position: absolute;
     left: 270px;
@@ -31,20 +36,24 @@
     padding-right: 21px;
     text-transform: uppercase;
   }
+
   &__wrapper-full {
     margin-left: 20px;
     margin-right: 20px;
     background-color: $white;
   }
+
   &__wrapper {
     background-color: $white;
   }
+
   &__author {
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
     color: $dark;
   }
+
   &__time {
     font-size: 14px;
     line-height: 24px;
@@ -52,12 +61,14 @@
     color: $dark;
     text-transform: uppercase;
   }
+
   &__comment {
     font-size: 14px;
     line-height: 24px;
     font-weight: normal;
     color: $dark;
   }
+
   &__like {
     font-size: 12px;
     line-height: 24px;
